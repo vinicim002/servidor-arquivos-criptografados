@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Orbitron:wght@400..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #DDE2E7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 8rem 14rem;
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+}
+
+/* Container Esquerda */
+.container-esquerda {
+  width: 60%;
+  background-color: #F5F5F5;
+  border-radius: 1rem 0 0 1rem;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+/* Logo */
+.logo-topo {
+  align-self: center;
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+
+/* Conteúdo Central */
+.conteudo-centralizado {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Botões Switch */
+.buttons {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.bnt-signin,
+.bnt-signup {
+  width: 50%;
+  padding: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.bnt-signin {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.bnt-signup {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.default {
+  background-color: gray;
+}
+
+.active {
+  background: linear-gradient(135deg, #C02492 0%, hsl(308, 68%, 40%) 30%, #5414B1 100%);
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 70%;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.box-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #C02492;
+  background-color: #F5F5F5;
+  border-radius: 1rem 0 0 1rem;
+  width: 10%;
+  height: 100%;
+  padding: 1rem;
+}
+
+/* Ícones */
+.size-6 {
+  color: #C02492;
+  width: 3rem;
+}
+
+/* Input + Label */
+.input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #C02492;
+  background-color: #F5F5F5;
+  border-radius: 0 1rem 1rem 0;
+  width: 100%;
+  padding: 1.2rem;
+}
+
+.input-box label {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.input-box input {
+  border: none;
+  background: transparent;
+  font-size: 1.6rem;
+  outline: none;
+}
+
+/* Botão Continuar */
+.btn-continuar {
+  background: linear-gradient(135deg, #C02492 0%, hsl(308, 68%, 40%) 30%, #5414B1 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 1.8rem;
+  border: none;
+  padding: 2rem 0;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+/* Container Direita */
+.container-direita {
+  width: 40%;
+  background: linear-gradient(135deg, #C02492 0%, hsl(308, 68%, 40%) 60%, #5414B1 100%);
+  border-radius: 0 1rem 1rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container-esquerda,
+  .container-direita {
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .buttons,
+  form {
+    width: 90%;
+  }
+
+  .logo-topo {
+    align-self: center;
+  }
+}
