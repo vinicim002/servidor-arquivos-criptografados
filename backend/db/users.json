@@ -1,14 +1,10 @@
 [
   {
-    "email": "usuario@exemplo.com",
-    "senha": "$2b$10$E9eQyKmfr6EcNPSJiCA3iOCtsCfv29TmkCN17NmpJmTcxIHFvP5Ja"
+    "email": "teste01@gmail.com",
+    "senha": "$2b$10$8Y2cm56VVcasqk5j/bM5VutS5OZgUnKGRDPvb/mhWb7XuoTACmCwS"
   },
   {
-    "email": "usuario2@exemplo.com",
-    "senha": "$2b$10$Wx7CzjK9BPsoGgJEQy6dHeTKCQj8CD0KLPtAjXHWP45hF6BOB3KLG"
-  },
-  {
-    "email": "usuario3@exemplo.com",
-    "senha": "$2b$10$RMEec0ZuObhmS12oziEwXOu.wjMnnYyecWU/61bp7OQ4CHYfoVFje"
+    "email": "teste02@gmail.com",
+    "senha": "$2b$10$DcSowqLtYhYoOFVeHh4NZOaZWS2hlNDrJW3MnAxZkhZDPQjE0WUXO"
   }
 ]

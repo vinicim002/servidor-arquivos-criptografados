@@ -179,6 +179,19 @@ form {
   align-items: center;
 }
 
+.file-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 2rem;
+  color: blue;
+}
+
+
 /* Responsividade */
 @media (max-width: 1024px) {
   .main {

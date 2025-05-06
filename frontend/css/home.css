@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Orbitron:wght@400..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem 14rem;
+  background: #DDE2E7;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 3rem;
+  border: 2px solid #C02492;
+  border-radius: 2rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.10);
+  margin-bottom: 8rem;
+}
+
+nav img {
+  width: 20rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+nav a:hover {
+  color: #C02492;
+}
+
+.container-arquivo {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  padding: 2rem;
+  row-gap: 3rem;
+}
+
+.titulo {
+  color: #C02492;
+  font-size: 2.5rem;
+  font-family: "Orbitron", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.input-border {
+  border: 1px solid #C02492;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* Estilo do botão principal */
+.btn {
+  background: linear-gradient(135deg, #C02492 0%, hsl(308, 68%, 40%) 30%, #5414B1 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 1.8rem;
+  border: none;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Estilo do input file usando label */
+.input-file {
+  display: none;
+}
+
+.file-label {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #C02492 0%, hsl(308, 68%, 40%) 30%, #5414B1 100%);
+  color: white;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.file-label:hover {
+  opacity: 0.9;
+}
